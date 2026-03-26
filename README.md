@@ -31,19 +31,16 @@ This Java console application allows users to:
 - Chose CSV for storage because it is human-readable and easy to debug.
 - Separated packages (`model`, `service`, `storage`) to keep code organized and maintainable.
 
-## 6. Challenges & What I Learned
-(Write what you struggled with: parsing dates, validating inputs, saving/loading, sorting, etc.)
-
-## 7. Testing
+## 6. Testing
 - Added items with different expiry dates and confirmed sorting works.
 - Tested “expiring within N days” with N = 0, 7, 30.
 - Verified persistence by restarting the program.
 
-## 8. Limitations
+## 7. Limitations
 - CSV parsing is simple (commas inside names are sanitized).
 - No user accounts; single shared pantry list.
 
-## 9. Future Work
+## 8. Future Work
 - Better CSV handling
 - Notifications
 - GUI
